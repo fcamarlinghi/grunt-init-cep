@@ -1,0 +1,29 @@
+{
+	"name": "grunt-init-cep",
+	"description": "Create an empty Creative Cloud extension project ready to be used with \"grunt-cep\".",
+	"version": "0.1.0",
+	"homepage": "https://github.com/fcamarlinghi/grunt-init-cep",
+	"author": {
+		"name": "Francesco Camarlinghi",
+		"email": "me@minifloppy.it",
+		"url": "http://www.minifloppy.it/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/fcamarlinghi/grunt-init-cep.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fcamarlinghi/grunt-init-cep/issues"
+	},
+	"licenses": [
+		{
+			"type": "APACHE-2.0",
+			"url": "https://github.com/fcamarlinghi/grunt-init-cep/blob/master/LICENSE-APACHE-2.0"
+		}
+	],
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"keywords": ["cep", "Adobe", "Creative Cloud", "extension", "boilerplate"],
+    "private": true
+}
