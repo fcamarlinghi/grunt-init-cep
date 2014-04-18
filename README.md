@@ -21,15 +21,21 @@ At the command-line, create a new directory or `cd` into an empty one, run the f
 grunt-init cep
 ```
 
-**Please note:** this template will generate files in the current directory only if it's empty, so be sure to change to a new directory first.
+> **Please note:** this template will generate files in the current directory only if it's empty, so be sure to change to a new directory first.
 
-Once you've run the command, you'll need to install `grunt-cep` in the same directory using:
+Once you have run the command, you need to install `grunt-cep` and its dependencies:
 
 ```shell
-npm install grunt-cep --save-dev
+npm install
 ```
 
-Now you're ready to start developing your extension! Please refer to the [grunt-cep](https://github.com/fcamarlinghi/grunt-cep) documentation for additional details.
+You are now ready to start developing your extension. You can test the extension boilerplate inside the targeted application by running:
+
+```shell
+grunt cep:debug
+```
+
+Please refer to the [grunt-cep](https://github.com/fcamarlinghi/grunt-cep) documentation for additional details.
 
 ## License
 Copyright &copy; 2014 Francesco Camarlinghi
