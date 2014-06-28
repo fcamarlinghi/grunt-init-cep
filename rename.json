@@ -3,5 +3,5 @@
 	"src/ID.html": "src/{%= basename %}.html",
 	"src/css/ID.css": "src/css/{%= basename %}.css",
 	"src/js/ID.js": "src/js/{%= basename %}.js",
-	"extension/changelogs/VERSION.txt": "extension/changelogs/{%= version %}.txt"
+	"bundle/changelogs/VERSION.txt": "bundle/changelogs/{%= version %}.txt"
 }

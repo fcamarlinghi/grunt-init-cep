@@ -32,7 +32,7 @@ exports.warnOn = '*';
 exports.template = function (grunt, init, done)
 {
     var path = require('path'),
-        supported_products = ['photoshop', 'illustrator', 'indesign', 'flash', 'dreamweaver', 'premiere', 'prelude'],
+        supported_products = ['photoshop', 'illustrator', 'indesign', 'flash', 'premiere', 'prelude'],
         sanitize_products = function (products, supported)
         {
             products = products.toLowerCase().split(/\s*,+\s*/);
@@ -114,14 +114,14 @@ exports.template = function (grunt, init, done)
         props.year = (new Date()).getFullYear();
         props.basename = props.name.replace(/[\s]+/g, '-').toLowerCase();
         props.devDependencies = {
-            'grunt-cep': '~0.1.0',
+            'grunt-cep': '~0.2.0',
         };
 
         // Files to copy (and process)
         var files = init.filesToCopy(props);
 
         // Actually copy (and process) files
-        init.copyAndProcess(files, props, { noProcess: ['extension/panel-icons/**', 'extension/*.png', 'extension/*.xml', 'extension/*.mxi', 'src/js/lib/**'] });
+        init.copyAndProcess(files, props, { noProcess: ['bundle/*.png', 'bundle/*.xml', 'bundle/*.mxi', 'src/js/lib/**', 'src/icons/**'] });
 
         // All done!
         done();

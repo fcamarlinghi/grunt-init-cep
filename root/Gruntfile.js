@@ -10,7 +10,7 @@ module.exports = function (grunt)
     grunt.initConfig({
         // Extension debug and packaging
         cep: {
-            options: require('./extension/cep-config.js'),
+            options: require('./bundle/cep-config.js'),
 
             debug: {
                 options: {
