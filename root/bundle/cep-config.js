@@ -14,7 +14,7 @@
         id: '{%= id %}.panel',
         name: '{%= name %}',
         main_path: '{%= basename %}.html',
-        script_path: 'extendscript/{%= basename %}.js',
+        script_path: 'extendscript/{%= basename %}.jsx',
         icons: {
             light: {
                 normal: 'icons/icon-light.png',
