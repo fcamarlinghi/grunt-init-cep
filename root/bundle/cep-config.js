@@ -34,14 +34,14 @@
         // CC2015
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc2015.xml' },
-            products: ["photoshop"],
+            products: {%= products %},
             source: 'src',
             families: ['CC2015'],
         },
         // Adobe CC and CC2014
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc.xml' },
-            products: ["photoshop"],
+            products: {%= products %},
             source: 'src',
             families: ['CC2014', 'CC'],
         }
