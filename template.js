@@ -32,7 +32,7 @@ exports.warnOn = '*';
 exports.template = function (grunt, init, done)
 {
     var path = require('path'),
-        supported_products = ['photoshop', 'illustrator', 'indesign', 'flash', 'premiere', 'prelude', 'aftereffects'],
+        supported_products = ['photoshop', 'illustrator', 'indesign', 'flash', 'premiere', 'prelude', 'aftereffects', 'dreamweaver', 'incopy'],
         sanitize_products = function (products, supported)
         {
             products = products.toLowerCase().split(/\s*,+\s*/);
