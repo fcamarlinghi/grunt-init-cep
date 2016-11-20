@@ -31,6 +31,13 @@
     }],
 
     builds: [
+        // CC2017
+        {
+            bundle: { manifest: 'bundle/manifest.bundle.cc2017.xml' },
+            products: {%= products %},
+            source: 'src',
+            families: ['CC2017'],
+        },
         // CC2015
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc2015.xml' },
