@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-"use strict";
+'use strict';
 
 module.exports = function (grunt)
 {
@@ -27,5 +27,5 @@ module.exports = function (grunt)
     });
 
     // Load grunt-cep tasks
-    grunt.loadNpmTasks("grunt-cep");
+    grunt.loadNpmTasks('grunt-cep');
 };
