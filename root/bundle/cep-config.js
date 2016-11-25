@@ -31,21 +31,14 @@
     }],
 
     builds: [
-        // CC2017
-        {
-            bundle: { manifest: 'bundle/manifest.bundle.cc2017.xml' },
-            products: {%= products %},
-            source: 'src',
-            families: ['CC2017'],
-        },
-        // CC2015
+        // CC2015, CC2015.5 and CC2017
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc2015.xml' },
             products: {%= products %},
             source: 'src',
-            families: ['CC2015'],
+            families: ['CC2017', 'CC2015.5', 'CC2015'],
         },
-        // Adobe CC and CC2014
+        // CC and CC2014
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc.xml' },
             products: {%= products %},
