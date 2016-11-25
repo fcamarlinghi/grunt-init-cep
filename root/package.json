@@ -1,5 +1,6 @@
 {
-	"devDependencies": {
-		"grunt-cep": "~0.3.0"
-	}
+  "devDependencies": {
+    "grunt-cep": "~0.4.0",
+    "grunt": "~1.0.1"
+  }
 }
