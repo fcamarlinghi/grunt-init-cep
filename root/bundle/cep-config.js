@@ -31,12 +31,12 @@
     }],
 
     builds: [
-        // CC2015, CC2015.5 and CC2017
+        // CC2015, CC2015.5, CC2017 and CC2018
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc2015.xml' },
             products: {%= products %},
             source: 'src',
-            families: ['CC2017', 'CC2015.5', 'CC2015'],
+            families: ['CC2018', 'CC2017', 'CC2015.5', 'CC2015'],
         },
         // CC and CC2014
         {
