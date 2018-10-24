@@ -31,19 +31,19 @@
     }],
 
     builds: [
-        // CC2015, CC2015.5, CC2017 and CC2018
+        // CC2017 and up
         {
-            bundle: { manifest: 'bundle/manifest.bundle.cc2015.xml' },
+            bundle: { manifest: 'bundle/manifest.bundle.cc2017.xml' },
             products: {%= products %},
             source: 'src',
-            families: ['CC2018', 'CC2017', 'CC2015.5', 'CC2015'],
+            families: ['CC2019', 'CC2018', 'CC2017'],
         },
-        // CC and CC2014
+        // Legacy versions
         {
             bundle: { manifest: 'bundle/manifest.bundle.cc.xml' },
             products: {%= products %},
             source: 'src',
-            families: ['CC2014', 'CC'],
+            families: ['CC2015.5', 'CC2015', 'CC2014', 'CC'],
         }
     ],
 };
