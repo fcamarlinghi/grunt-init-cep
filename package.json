@@ -1,12 +1,12 @@
 {
 	"name": "grunt-init-cep",
 	"description": "Create an empty Creative Cloud extension project ready to be used with \"grunt-cep\".",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"homepage": "https://github.com/fcamarlinghi/grunt-init-cep",
 	"author": {
 		"name": "Francesco Camarlinghi",
 		"email": "me@minifloppy.it",
-		"url": "http://www.minifloppy.it/"
+		"url": "https://minifloppy.it"
 	},
 	"repository": {
 		"type": "git",
