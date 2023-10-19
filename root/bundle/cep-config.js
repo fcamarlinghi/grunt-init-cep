@@ -36,7 +36,7 @@
             bundle: { manifest: 'bundle/manifest.bundle.cc2017.xml' },
             products: {%= products %},
             source: 'src',
-            families: ['CC2023', 'CC2022', 'CC2021', 'CC2020', 'CC2019', 'CC2018', 'CC2017'],
+            families: ['CC2024', 'CC2023', 'CC2022', 'CC2021', 'CC2020', 'CC2019', 'CC2018', 'CC2017'],
         },
         // Legacy versions
         {
